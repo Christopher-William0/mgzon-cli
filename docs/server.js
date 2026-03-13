@@ -32,7 +32,7 @@ app.get('/api/cli/version', (req, res) => {
     } catch (error) {
         res.json({
             success: true,
-            version: '2.0.8',
+            version: '1.0.0',
             name: '@mg-cli/cli',
             description: 'MGZON Command Line Interface',
             homepage: 'https://github.com/Mark-Lasfar/mgzon-cli'

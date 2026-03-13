@@ -19,7 +19,7 @@ app.get('/api/cli/version', (req, res) => {
         });
     } catch (error) {
         res.json({
-            version: '2.0.8',
+            version: '1.0.0',
             name: '@mg-cli/cli',
             description: 'MGZON Command Line Interface'
         });

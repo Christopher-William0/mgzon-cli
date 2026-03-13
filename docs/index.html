@@ -92,9 +92,10 @@
 
     <!-- Security -->
     <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:;">
+        content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://use.fontawesome.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://use.fontawesome.com; img-src 'self' data: https:;">
     <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css" crossorigin="anonymous">
 
     <!-- Preload critical resources -->
     <link rel="preload" href="public/css/main.css" as="style">
@@ -358,10 +359,10 @@
             </div>
 
             <div class="nav-links">
-                <a href="/#home" class="nav-link active" data-page="home">Home</a>
-                <a href="/#docs" class="nav-link" data-page="docs">Documentation</a>
-                <a href="/#terminal" class="nav-link" data-page="terminal">Live Terminal</a>
-                <a href="/#download" class="nav-link" data-page="download">Download</a>
+                <a href="#home" class="nav-link active" data-page="home">Home</a>
+                <a href="#docs" class="nav-link" data-page="docs">Documentation</a>
+                <a href="#terminal" class="nav-link" data-page="terminal">Live Terminal</a>
+                <a href="#download" class="nav-link" data-page="download">Download</a>
                 <a href="https://github.com/Mark-Lasfar/mgzon-cli" target="_blank" class="nav-link">
                     <i class="fa-brands fa-github"></i> GitHub
                 </a>
@@ -409,7 +410,7 @@
 
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <i class="fa-solid fa-books"></i>
+                            <i class="fa-solid fa-book"></i>
                         </div>
                         <h3>Live Documentation</h3>
                         <p>Read actual .mdx files with real-time rendering</p>

@@ -1134,3 +1134,143 @@ body::before {
         box-shadow: none;
     }
 }
+
+/* =============================================
+   External Resources & Author Links
+   ============================================= */
+.external-resources {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: var(--bg-card);
+    border-radius: 20px;
+    border: 1px solid var(--border-light);
+}
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.resource-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    text-decoration: none;
+    color: var(--text-secondary);
+    border: 1px solid transparent;
+    transition: all var(--transition-base);
+}
+
+.resource-card:hover {
+    background: rgba(99, 102, 241, 0.1);
+    border-color: var(--border-medium);
+    transform: translateX(5px);
+    box-shadow: var(--shadow-sm);
+}
+
+.resource-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(16, 185, 129, 0.2) 100%);
+    border-radius: 12px;
+    font-size: 1.5rem;
+}
+
+.resource-info h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.resource-info p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* Platform-specific colors */
+.resource-card.npm i { color: #cb3837; }
+.resource-card.github i { color: #ffffff; }
+.resource-card.socket i { color: #4f46e5; }
+.resource-card.npmgraph i { color: #10b981; }
+.resource-card.personal i { color: var(--primary-light); }
+.resource-card.mgzon i { color: var(--secondary); }
+
+
+
+/* =============================================
+   External Resources & Author Links
+   ============================================= */
+.external-resources {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: var(--bg-card);
+    border-radius: 20px;
+    border: 1px solid var(--border-light);
+}
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.resource-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    text-decoration: none;
+    color: var(--text-secondary);
+    border: 1px solid transparent;
+    transition: all var(--transition-base);
+}
+
+.resource-card:hover {
+    background: rgba(99, 102, 241, 0.1);
+    border-color: var(--border-medium);
+    transform: translateX(5px);
+    box-shadow: var(--shadow-sm);
+}
+
+.resource-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(16, 185, 129, 0.2) 100%);
+    border-radius: 12px;
+    font-size: 1.5rem;
+}
+
+.resource-info h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.resource-info p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* Platform-specific colors */
+.resource-card.npm i { color: #cb3837; }
+.resource-card.github i { color: #ffffff; }
+.resource-card.socket i { color: #4f46e5; }
+.resource-card.npmgraph i { color: #10b981; }
+.resource-card.personal i { color: var(--primary-light); }
+.resource-card.mgzon i { color: var(--secondary); }

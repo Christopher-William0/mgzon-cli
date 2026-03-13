@@ -1270,3 +1270,19 @@ body::before {
 .resource-card.npmgraph i { color: #10b981; }
 .resource-card.personal i { color: var(--primary-light); }
 .resource-card.mgzon i { color: var(--secondary); }
+
+
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-link:hover {
+    opacity: 0.9;
+}

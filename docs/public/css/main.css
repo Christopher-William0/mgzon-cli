@@ -408,9 +408,7 @@ body::before {
 
 .feature-icon i {
     font-size: 2rem;
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--primary);
 }
 
 .feature-card h3 {
@@ -773,9 +771,7 @@ body::before {
 
 .platform-icon i {
     font-size: 3rem;
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--primary);
 }
 
 .platform-card h3 {

@@ -13,7 +13,7 @@
     "package:win": "npm run build && npm run convert-icons && electron-builder --win --config.win.certificateSubjectName=null",
     "convert-icons": "node convert-icons.js",
     "clean": "rm -rf dist build",
-    "prebuild": "test -f ../bin/mgzon || (echo 'CLI not built!' && exit 1)"
+    "prebuild": "test -f ../bin/mgzon-linux || test -f ../bin/mgzon-macos || test -f ../bin/mgzon-win.exe || (echo 'CLI not built!' && exit 1)"
   },
   "build": {
     "appId": "com.mgzon.gui",

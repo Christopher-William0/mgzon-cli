@@ -44,8 +44,8 @@ jobs:
           file: Dockerfile
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:latest
-            ghcr.io/${{ github.repository }}:${{ steps.version.outputs.version }}
+            ghcr.io/${{ github.repository,, }}:latest
+            ghcr.io/${{ github.repository,, }}:${{ steps.version.outputs.version }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
           platforms: linux/amd64,linux/arm64
@@ -55,9 +55,9 @@ jobs:
           echo "🧪 Testing MGZON CLI Docker image..."
           
           # Pull and test the image
-          docker pull ghcr.io/${{ github.repository }}:latest
+          docker pull ghcr.io/${{ github.repository,, }}:latest
           
           # Test basic functionality
-          docker run --rm ghcr.io/${{ github.repository }}:latest --version
+          docker run --rm ghcr.io/${{ github.repository,, }}:latest --version
           
           echo "✅ Docker image built and tested successfully!"

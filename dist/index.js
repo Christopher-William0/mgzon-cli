@@ -47,7 +47,7 @@ const program = new commander_1.Command();
 program
     .name('mz')
     .description('MGZON Command Line Interface - Official CLI tool for MGZON Platform')
-    .version('2.0.2', '-v, --version')
+    .version('2.0.8', '-v, --version')
     .addHelpText('afterAll', `
 ${chalk_1.default.gray('─'.repeat(50))}
 ${chalk_1.default.bold('📊 MGZON CLI Information')}

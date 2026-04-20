@@ -431,7 +431,7 @@ For more details: mz <command> --help
             this.print('Project Configuration (.mgzon.json):', 'output');
             this.print('project_id: proj_' + this.generateRandomKey(), 'output');
             this.print('name: MGZON CLI Preview', 'output');
-            this.print('version: 2.0.8', 'output');
+            this.print('version: 1.0.0', 'output');
         } else {
             this.print('⚙️  Config command usage:', 'output');
             this.print('   config --list        Show all configurations', 'output');
@@ -607,4 +607,30 @@ For more details: mz <command> --help
         return Math.random().toString(36).substring(2, 15) + 
                Math.random().toString(36).substring(2, 15);
     }
+}
+
+// Make the class globally available
+window.RealTerminal = RealTerminal;
+
+// Auto-initialize terminal when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    // Check if terminal elements exist on the page
+    if (document.getElementById('terminal-output') && document.getElementById('terminal-input')) {
+        console.log('Terminal elements found, ready for initialization');
+        // Terminal will be initialized by main.js when terminal page is selected
+    }
+});
+
+// Alternative: Direct initialization if terminal page is already active
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        if (document.querySelector('.page.active#page-terminal')) {
+            window.terminal = new RealTerminal();
+        }
+    });
+} else {
+    if (document.querySelector('.page.active#page-terminal')) {
+        window.terminal = new RealTerminal();
+    }
+}
 }

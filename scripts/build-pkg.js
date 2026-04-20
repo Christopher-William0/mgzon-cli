@@ -69,22 +69,22 @@ console.log('🔨 Building binaries for all platforms...');
 
 try {
     // Linux
-    console.log('🐧 Building for Linux (node20-linux-x64)...');
-    execSync('pkg dist/index.js --targets node20-linux-x64 --output bin/mgzon-linux', {
+    console.log('🐧 Building for Linux (node18-linux-x64)...');
+    execSync('pkg dist/index.js --targets node18-linux-x64 --output bin/mgzon-linux', {
         stdio: 'inherit',
         cwd: path.join(__dirname, '..')
     });
 
     // macOS
-    console.log('🍎 Building for macOS (node20-macos-x64)...');
-    execSync('pkg dist/index.js --targets node20-macos-x64 --output bin/mgzon-macos', {
+    console.log('🍎 Building for macOS (node18-macos-x64)...');
+    execSync('pkg dist/index.js --targets node18-macos-x64 --output bin/mgzon-macos', {
         stdio: 'inherit',
         cwd: path.join(__dirname, '..')
     });
 
     // Windows
-    console.log('🪟 Building for Windows (node20-win-x64)...');
-    execSync('pkg dist/index.js --targets node20-win-x64 --output bin/mgzon-win.exe', {
+    console.log('🪟 Building for Windows (node18-win-x64)...');
+    execSync('pkg dist/index.js --targets node18-win-x64 --output bin/mgzon-win.exe', {
         stdio: 'inherit',
         cwd: path.join(__dirname, '..')
     });

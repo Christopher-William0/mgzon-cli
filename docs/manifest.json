@@ -1,7 +1,7 @@
 {
   "name": "MGZON CLI Documentation",
   "short_name": "MGZON CLI",
-  "description": "Interactive documentation and terminal simulator for MGZON Command Line Interface",
+  "description": "Interactive documentation and terminal simulator for MGZON Command Line Interface. Created by Mark Al-Asfar.",
   "start_url": "/cli/",
   "display": "standalone",
   "background_color": "#0f172a",
@@ -13,50 +13,20 @@
   "categories": ["development", "utilities", "productivity"],
   "icons": [
     {
-      "src": "/cli/icon-72x72.png",
-      "sizes": "72x72",
+      "src": "https://raw.githubusercontent.com/Mark-Lasfar/mgzon-cli/refs/heads/master/assets/icon_1024x1024.png",
+      "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/cli/icon-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/cli/icon-128x128.png",
-      "sizes": "128x128",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/cli/icon-144x144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/cli/icon-152x152.png",
-      "sizes": "152x152",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/cli/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/cli/icon-384x384.png",
-      "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/cli/icon-512x512.png",
+      "src": "https://raw.githubusercontent.com/Mark-Lasfar/mgzon-cli/refs/heads/master/assets/icon_512x512.png",
       "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/Mark-Lasfar/mgzon-cli/refs/heads/master/assets/icon_192x192.png",
+      "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     }
@@ -67,21 +37,21 @@
       "short_name": "Terminal",
       "description": "Open interactive terminal",
       "url": "/cli/#terminal",
-      "icons": [{ "src": "/cli/terminal-icon.png", "sizes": "96x96" }]
+      "icons": [{ "src": "https://raw.githubusercontent.com/Mark-Lasfar/mgzon-cli/refs/heads/master/assets/terminal-icon.png", "sizes": "96x96" }]
     },
     {
       "name": "Documentation",
       "short_name": "Docs",
       "description": "Browse documentation",
       "url": "/cli/#docs",
-      "icons": [{ "src": "/cli/docs-icon.png", "sizes": "96x96" }]
+      "icons": [{ "src": "https://raw.githubusercontent.com/Mark-Lasfar/mgzon-cli/refs/heads/master/assets/docs-icon.png", "sizes": "96x96" }]
     },
     {
       "name": "Download CLI",
       "short_name": "Download",
       "description": "Download MGZON CLI",
       "url": "/cli/#download",
-      "icons": [{ "src": "/cli/download-icon.png", "sizes": "96x96" }]
+      "icons": [{ "src": "https://raw.githubusercontent.com/Mark-Lasfar/mgzon-cli/refs/heads/master/assets/download-icon.png", "sizes": "96x96" }]
     }
   ],
   "screenshots": [
@@ -110,6 +80,11 @@
       "platform": "github",
       "url": "https://github.com/Mark-Lasfar/mgzon-cli",
       "id": "mark-lasfar.mgzon-cli"
+    },
+    {
+      "platform": "npm",
+      "url": "https://www.npmjs.com/package/@mgzon/cli",
+      "id": "@mgzon/cli"
     }
   ],
   "prefer_related_applications": false,

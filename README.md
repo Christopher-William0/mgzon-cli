@@ -33,6 +33,7 @@
 ![Node Version](https://img.shields.io/node/v/@mg-cli/cli)
 ![GitHub Release](https://img.shields.io/github/v/release/Mark-Lasfar/mgzon-cli)
 ![Downloads](https://img.shields.io/npm/dm/@mg-cli/cli.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![Build Status](https://github.com/Mark-Lasfar/mgzon-cli/actions/workflows/publish.yml/badge.svg)
 
 </p>

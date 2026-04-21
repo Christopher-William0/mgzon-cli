@@ -503,4 +503,5 @@ For security issues, please review our [Security Policy](SECURITY.md) and report
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Mark-Lasfar/mgzon-cli&type=Date)](https://star-history.com/#Mark-Lasfar/mgzon-cli&Date)
 
+<!-- Small update for collaboration -->
 </div>
